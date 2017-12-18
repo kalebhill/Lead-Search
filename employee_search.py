@@ -7,7 +7,7 @@ employee_profiles = {}
 matches = {}
 software = 'adobe acrobat'
 
-# ask user for the input file, will loop until a condition is met
+# ask user for the input file
 i_file = input("""Enter the .csv you would like to parse (press CTRL-C to exit)
 ***This will only work with .csv pulled from DiscoverOrg - otherwise you'll have to dig into the code and change the fields ;)***
 > """)
